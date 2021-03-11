@@ -24,6 +24,30 @@ p {
   color: #fff;
   border: 3px solid #fff;
 }
+.btn-preto:hover {
+  color: #000;
+  border: 3px solid #000;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subtitle:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 8px auto;
+}
 
 /* Header */
 .header {
@@ -32,6 +56,7 @@ p {
   width: 100%;
   background-color: #fec63e;
   padding: 15px 0;
+  z-index: 10;
 }
 .nav-menu {
   text-align: right;
@@ -96,4 +121,52 @@ p {
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 0.1em;
+}
+
+/* Produtos */
+
+.produtos {
+  padding: 60px 0;
+}
+
+.produtos-list li {
+  background-color: #fec63e;
+  text-align: center;
+}
+
+.produtos-list div {
+  background-color: #000;
+  text-align: center;
+  padding: 20px;
+}
+.produtos-list li h3 {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.produtos-list li h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 2px auto;
+}
+
+.produtos-list li p {
+  padding: 10px 20px 20px 20px;
+}
+
+.call {
+  padding-top: 40px;
+  text-align: center;
+  clear: both;
+}
+
+.call p {
+  margin-bottom: 20px;
 }
