@@ -9,7 +9,9 @@ p {
   font-size: 14px;
   line-height: 20px;
 }
-
+img {
+  display: block;
+}
 .btn {
   border: 3px solid #fec63e;
   padding: 10px 30px;
@@ -83,7 +85,7 @@ p {
 /* Introdução */
 
 .introdução {
-  margin-top: 96px;
+  margin-top: 92px;
   width: 100%;
   height: 380px;
   background: url("../img/bg.jpg") no-repeat center;
@@ -192,4 +194,51 @@ p {
 
 .portifolio .call p {
   color: #fff;
+}
+
+/* Qualidade */
+
+.qualidade {
+  padding: 60px 0;
+}
+
+.qualidade:after {
+  content: "";
+  width: 634px;
+  height: 83px;
+  display: block;
+  background: url("../img/linhas.svg") no-repeat center;
+  position: absolute;
+  top: 199px;
+  left: 164px;
+}
+
+.qualidade img {
+  margin: 0 auto;
+}
+
+.qualidade-list {
+  padding-top: 20px;
+}
+
+.qualidade-list li {
+  text-align: center;
+  padding: 0 40px;
+}
+.qualidade-list li h3 {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.qualidade-list li h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 4px auto;
 }
