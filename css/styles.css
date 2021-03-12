@@ -242,3 +242,41 @@ img {
   background: #000;
   margin: 4px auto;
 }
+
+/* quebra  */
+
+.quebra {
+  width: 100%;
+  height: 220px;
+  background: url("../img/bg-footer.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.quebra blockquote {
+  max-width: 400px;
+  margin: 0 auto;
+  color: #fff;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.quebra blockquote p {
+  font-style: italic;
+}
+.quebra blockquote p:before,
+.quebra blockquote p:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 12px auto 10px auto;
+}
+
+.quebra blockquote cite {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+/* Footer */
