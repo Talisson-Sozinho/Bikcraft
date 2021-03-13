@@ -60,7 +60,7 @@ img {
   letter-spacing: 0.1em;
   color: #000;
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .subtitle-interno:after {
@@ -102,6 +102,13 @@ img {
 .nav-menu ul li a:hover {
   color: #fff;
   font-size: 16px;
+}
+.nav-menu ul li .ativo {
+  color: #fff;
+}
+.nav-menu ul li .ativo:hover {
+  color: #fff;
+  font-size: 14px;
 }
 
 /* Introdução */
@@ -266,6 +273,7 @@ img {
 
 .qualidade-list {
   padding-top: 20px;
+  overflow: auto;
 }
 
 .qualidade-list li {
