@@ -1,0 +1,17 @@
+/* introdução */
+
+.interna-Produtos {
+  background: url("../img/bg-produtos.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.produto-item {
+  padding-top: 60px;
+}
+
+.produto-icon {
+  background-color: #000;
+}
+
+.produto-icon img {
+}
