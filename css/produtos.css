@@ -9,9 +9,70 @@
   padding-top: 60px;
 }
 
+.produto-item h2 {
+  font-size: 36px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  position: relative;
+  top: -185px;
+  text-align: center;
+  margin-bottom: -47px;
+}
+
+.produto-item h2:after,
+.produto-item h2:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 5px auto;
+}
+
 .produto-icon {
   background-color: #000;
+  padding: 70px 0;
 }
 
 .produto-icon img {
+  margin: 0 auto;
+}
+
+.produto-info {
+  background-color: #000;
+}
+.produto-info p {
+  height: 180px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 20px 40px;
+}
+
+.produto-info ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.produto-info ul li {
+  width: 50%;
+  height: 50px;
+  background-color: #fec63e;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.produto-info ul li:nth-child(1),
+.produto-info ul li:nth-child(2) {
+  border-bottom: 2px solid #000;
+}
+.produto-info ul li:nth-child(odd) {
+  border-right: 2px solid #000;
 }
